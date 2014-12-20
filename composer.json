@@ -1,0 +1,18 @@
+{
+    "name": "sample/zenddate",
+    "description":" ",
+    "keywords":[
+    ],
+    "config":{
+        "bin-dir": "bin"
+    },
+    "require":{
+        "zf1/zend-date": "*",
+        "zf1/zend-registry": "*"
+    },
+    "autoload":{
+        "psr-4":{
+            "Sample\\ZendDate\\": "src/"
+        }
+    }
+}

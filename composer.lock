@@ -1,0 +1,251 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "304c83a8b9cfae1c233a1df142782533",
+    "packages": [
+        {
+            "name": "zf1/zend-cache",
+            "version": "1.12.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zf1/zend-cache.git",
+                "reference": "2d7555f86c2fbd39b1fb54383512965bb2c4badf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zf1/zend-cache/zipball/2d7555f86c2fbd39b1fb54383512965bb2c4badf",
+                "reference": "2d7555f86c2fbd39b1fb54383512965bb2c4badf",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.11",
+                "zf1/zend-exception": "self.version"
+            },
+            "suggest": {
+                "zf1/zend-log": "Used in special situations or with special adapters"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Zend_Cache": "library/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "Zend Framework 1 Cache package",
+            "homepage": "http://framework.zend.com/",
+            "keywords": [
+                "ZF1",
+                "cache",
+                "framework",
+                "zend"
+            ],
+            "time": "2014-08-27 14:35:49"
+        },
+        {
+            "name": "zf1/zend-date",
+            "version": "1.12.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kumamidori/zend-date.git",
+                "reference": "f2e36fd1ebbaff0c58d0c1c5c1d74f2a0d0d834b"
+            },
+            "require": {
+                "php": ">=5.2.11",
+                "zf1/zend-exception": "self.version",
+                "zf1/zend-locale": "self.version"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Zend_Date": "library/"
+                }
+            },
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "Zend Framework 1 Date package",
+            "homepage": "http://framework.zend.com/",
+            "keywords": [
+                "date",
+                "framework",
+                "zend",
+                "zf1"
+            ],
+            "time": "2014-08-27 14:35:49"
+        },
+        {
+            "name": "zf1/zend-exception",
+            "version": "1.12.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zf1/zend-exception.git",
+                "reference": "ee61f139d1ad7070c1ff4d0f4bd7ccd441172f11"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zf1/zend-exception/zipball/ee61f139d1ad7070c1ff4d0f4bd7ccd441172f11",
+                "reference": "ee61f139d1ad7070c1ff4d0f4bd7ccd441172f11",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.11"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Zend_Exception": "library/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "Zend Framework 1 Exception package",
+            "homepage": "http://framework.zend.com/",
+            "keywords": [
+                "ZF1",
+                "exception",
+                "framework",
+                "zend"
+            ],
+            "time": "2014-05-21 15:17:51"
+        },
+        {
+            "name": "zf1/zend-locale",
+            "version": "1.12.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zf1/zend-locale.git",
+                "reference": "4ed60274d553b44b04e3e383d3b552c02a991e01"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zf1/zend-locale/zipball/4ed60274d553b44b04e3e383d3b552c02a991e01",
+                "reference": "4ed60274d553b44b04e3e383d3b552c02a991e01",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.11",
+                "zf1/zend-cache": "self.version",
+                "zf1/zend-exception": "self.version",
+                "zf1/zend-xml": "self.version"
+            },
+            "suggest": {
+                "zf1/zend-registry": "Used in special situations or with special adapters"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Zend_Locale": "library/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "Zend Framework 1 Locale package",
+            "homepage": "http://framework.zend.com/",
+            "keywords": [
+                "ZF1",
+                "framework",
+                "locale",
+                "zend"
+            ],
+            "time": "2014-08-27 14:35:51"
+        },
+        {
+            "name": "zf1/zend-registry",
+            "version": "1.12.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zf1/zend-registry.git",
+                "reference": "aafc0b8a46d54623e43dd1bb139959b86b15d9da"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zf1/zend-registry/zipball/aafc0b8a46d54623e43dd1bb139959b86b15d9da",
+                "reference": "aafc0b8a46d54623e43dd1bb139959b86b15d9da",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.11",
+                "zf1/zend-exception": "self.version"
+            },
+            "suggest": {
+                "zf1/zend-loader": "Used in special situations or with special adapters"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Zend_Registry": "library/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "Zend Framework 1 Registry package",
+            "homepage": "http://framework.zend.com/",
+            "keywords": [
+                "ZF1",
+                "framework",
+                "registry",
+                "zend"
+            ],
+            "time": "2014-05-21 15:18:00"
+        },
+        {
+            "name": "zf1/zend-xml",
+            "version": "1.12.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zf1/zend-xml.git",
+                "reference": "3e8f39d963283ee1e97455a26f3736856095a9b5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zf1/zend-xml/zipball/3e8f39d963283ee1e97455a26f3736856095a9b5",
+                "reference": "3e8f39d963283ee1e97455a26f3736856095a9b5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.11",
+                "zf1/zend-exception": "self.version"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Zend_Xml": "library/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "Zend Framework 1 Xml package",
+            "homepage": "http://framework.zend.com/",
+            "keywords": [
+                "ZF1",
+                "framework",
+                "xml",
+                "zend"
+            ],
+            "time": "2014-08-27 14:35:56"
+        }
+    ],
+    "packages-dev": null,
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "piece/stagehand-testrunner": 20
+    },
+    "prefer-stable": false,
+    "platform": [],
+    "platform-dev": []
+}
